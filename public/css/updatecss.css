@@ -1,0 +1,64 @@
+
+.vertical-menu {
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu tr td{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vertical-menu tr td input{
+    margin-right: 10px;
+}
+
+#myInput {
+    background-image: url(../images/searchicon.png);
+       background-position: 173px 8px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 14px;
+    padding: 9px 10px 8px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,.22);
+}
+
+
+
+#colll1{
+    width: 230px;
+    background: white;
+    margin-right: 10px;
+
+}
+
+#btsht{
+float: right;
+background: none;
+border: none;
+}
+.bodanhmuc{
+    width: 80%;
+    height: auto;
+}
+
