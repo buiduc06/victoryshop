@@ -34,6 +34,7 @@ function getUrl($path = ""){
 
 require_once 'controllers/HomeController.php';
 require_once 'controllers/AdminController.php';
+
 require_once 'controllers/DeleteController.php';
 require_once 'controllers/MemberController.php';
 
